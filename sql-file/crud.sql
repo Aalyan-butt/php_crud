@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 25, 2024 at 04:29 PM
+-- Generation Time: Aug 25, 2024 at 04:56 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -40,8 +40,7 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`sid`, `sname`, `sadress`, `sclass`, `sphone`) VALUES
-(1, 'Aalyan', 'house no.7 Nishat mills colony NishatAbad FSD', 1, '03013466676'),
-(2, 'Abid ', 'Fsd', 2, '0300 660667');
+(1, 'Aalyan Riasat', 'house no.7 Nishat mills colony NishatAbad FSD', 2, '03013466676');
 
 -- --------------------------------------------------------
 
@@ -89,7 +88,7 @@ ALTER TABLE `studentclass`
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `sid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `sid` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `studentclass`
