@@ -9,7 +9,7 @@
 $sql = "UPDATE student SET sname='{$stu_name}', sadress= '{$stu_adress}' , sclass= '{$stu_class}', sphone= '{$stu_phone}' WHERE sid= '{$stu_id}'";
 $result = mysqli_query($conn, $sql) or die("Query unsuccessful"); 
 
- header("Location: http://localhost/crud_html/index.php");
+ header("Location: http://localhost/php_crud/index.php");
 
 mysqli_close($conn);
 

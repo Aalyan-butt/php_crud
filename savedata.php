@@ -9,7 +9,7 @@
 $sql = "INSERT INTO student(sname, sadress, sclass,sphone) VALUES('{$stu_name}', '{$stu_adress}','{$stu_class}','{$stu_phone}' )";
 $result = mysqli_query($conn, $sql) or die("Query unsuccessful"); 
 
- header("Location: http://localhost/crud_html/index.php");
+ header("Location: https://localhost/php_crud/index.php");
 
 mysqli_close($conn);
 

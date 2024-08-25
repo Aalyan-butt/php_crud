@@ -9,7 +9,7 @@ $stu_id= $_POST['sid'];
 $sql = "DELETE FROM student WHERE sid={$stu_id}";
   $result = mysqli_query($conn, $sql) or die("Query unsuccessful");   
     
-  header("Location: http://localhost/crud_html/index.php");
+  header("Location: http://localhost/php_crud/index.php");    // location in my system set yours
 
   mysqli_close($conn);
 
